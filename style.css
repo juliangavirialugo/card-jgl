@@ -61,15 +61,18 @@
     justify-content: space-around;
     flex-direction: row;
     margin-bottom: 10px;
+    font-size: .9rem;
     & div{
         width: 20px;
         height: 20px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        
     }
     & .city{
         background-image: url(/img/location-pin.png);
+        
     }
     & .country{
         background-image: url(/img/worldwide.png);
@@ -141,6 +144,7 @@ footer{
         box-shadow: 2px 0 2px black 0.15;
         position: relative;
         bottom: -15px;
+        cursor: pointer;
     }
 }
 
